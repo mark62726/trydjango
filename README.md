@@ -1,0 +1,2 @@
+# trydjango
+tutorial de django
