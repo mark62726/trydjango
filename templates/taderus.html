@@ -3,7 +3,6 @@
 
 <head>
     {% load static %}
-    {% load staticfiles %}
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,7 +55,7 @@
                 <div class="navbar-header">
                     <!-- Logo -->
                     <div class="navbar-brand">
-                        <a href="taderus.html">
+                        <a href="{% template 'taderus.html' %}">
                             <img class="logo" src="{% static 'img/logo.png' %}" alt="logo">
                             <img class="logo-alt" src="{% static 'img/logo-alt.png' %}" alt="logo">
                         </a>
@@ -109,7 +108,7 @@
 
                     <!-- footer logo -->
                     <div class="footer-logo">
-                        <img src="{% static 'img/logo-alt.png' %}" alt="logo">
+                        <a href="index.html"><img src="{% static 'img/logo-alt.png' %}" alt="logo"></a>
                     </div>
                     <!-- /footer logo -->
 
