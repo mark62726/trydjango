@@ -15,5 +15,3 @@ def about_view(request,*args, **kwargs):
 def social_view(request,*args, **kwargs):
 	return render(request, "social.html", {})
 
-def taderus_view(request,*args, **kwargs):
-	return render(request, "taderus.html", {})

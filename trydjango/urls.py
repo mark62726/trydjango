@@ -22,6 +22,5 @@ urlpatterns = [
     path('contact/', contact_view),
     path('about/', about_view),
     path('social/', social_view),
-    path('taderus/', taderus_view),
 
 ]
