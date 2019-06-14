@@ -4,6 +4,6 @@ from django.shortcuts import render
 # Create your views here.
 def home_view(request, *args, **kwargs):
 	#return HttpResponse("<h1>Hello world</h1>")
-	return render(request, "home/home.html", {})
+	return render(request, "base.html", {})
 
 
