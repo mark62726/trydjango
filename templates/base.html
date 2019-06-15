@@ -55,7 +55,119 @@
     </header>
     <!-- /Header -->
 
-{% include "home/portafolio.html" %}
+    <!-- Portfolio -->
+    <div id="portfolio" class="section md-padding bg-grey">
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Row -->
+            <div class="row">
+
+                <!-- Section header -->
+                <div class="section-header text-center">
+                    <h2 class="title">Productos Destacados</h2>
+                </div>
+                <!-- /Section header -->
+
+                <!-- Work -->
+                <div class="col-md-4 col-xs-6 work">
+                    <img class="img-responsive" src="{% static 'img/work11.png' %}" alt="">
+                    <div class="overlay"></div>
+                    <div class="work-content">
+                        <span>Nodo</span>
+                        <h3>Kepler</h3>
+                        <div class="work-link">
+                            <a href="nodo.html"><i class="fa fa-external-link"></i></a>
+                            <a class="lightbox" href="{% static 'img/work1.1.jpeg' %}"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Work -->
+
+                <!-- Work -->
+                <div class="col-md-4 col-xs-6 work">
+                    <img class="img-responsive" src="{% static 'img/work2.2.jpeg' %}" alt="">
+                    <div class="overlay"></div>
+                    <div class="work-content">
+                        <span>Consola</span>
+                        <h3>C-160</h3>
+                        <div class="work-link">
+                            <a href="#"><i class="fa fa-external-link"></i></a>
+                            <a class="lightbox" href="{% static 'img/work2.jpeg' %}"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Work -->
+
+                <!-- Work -->
+                <div class="col-md-4 col-xs-6 work">
+                    <img class="img-responsive" src="{% static 'img/work5.png' %}" alt="">
+                    <div class="overlay"></div>
+                    <div class="work-content">
+                        <span>Sonda Subterranea</span>
+                        <h3>Iridium X</h3>
+                        <div class="work-link">
+                            <a href="#"><i class="fa fa-external-link"></i></a>
+                            <a class="lightbox" href="{% static 'img/work5.1.png' %}"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Work -->
+
+                <!-- Work -->
+                <div class="col-md-4 col-xs-6 work">
+                    <img class="img-responsive" src="{% static 'img/work9.jpeg' %}" alt="">
+                    <div class="overlay"></div>
+                    <div class="work-content">
+                        <span>Geoposicion</span>
+                        <h3>Posicionamiento de Consolas y Nodos</h3>
+                        <div class="work-link">
+                            <a href="#"><i class="fa fa-external-link"></i></a>
+                            <a class="lightbox" href="{% static 'img/work9.1.png' %}"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Work -->
+
+                <!-- Work -->
+                <div class="col-md-4 col-xs-6 work">
+                    <img class="img-responsive" src="{% static 'img/work8.png' %}" alt="">
+                    <div class="overlay"></div>
+                    <div class="work-content">
+                        <span>Graficas</span>
+                        <h3>Monitoreo de humedades del suelo</h3>
+                        <div class="work-link">
+                            <a href="#"><i class="fa fa-external-link"></i></a>
+                            <a class="lightbox" href="{% static 'img/work8.1.jpeg' %}"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Work -->
+
+                <!-- Work -->
+                <div class="col-md-4 col-xs-6 work">
+                    <img class="img-responsive" src="{% static 'img/work10.png' %}" alt="">
+                    <div class="overlay"></div>
+                    <div class="work-content">
+                        <span>Graficas</span>
+                        <h3>Monitoreo de temperaturas de la plantacion</h3>
+                        <div class="work-link">
+                            <a href="#"><i class="fa fa-external-link"></i></a>
+                            <a class="lightbox" href="{% static 'img/work10.1.jpeg' %}"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Work -->
+
+            </div>
+            <!-- /Row -->
+
+        </div>
+        <!-- /Container -->
+
+    </div>
+    <!-- /Portfolio -->
 
 {% include "home/about.html" %}
     
